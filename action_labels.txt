@@ -1,0 +1,21 @@
+1
+2
+3
+4
+5
+A
+B
+Biru
+C
+D
+E
+Hijau
+Hitam
+Idle
+Kuning
+Merah
+Sama-sama
+Selamat malam
+Selamat pagi
+Selamat petang
+Terima kasih

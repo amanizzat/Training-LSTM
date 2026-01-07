@@ -1,0 +1,63 @@
+{
+  "sequence_length": 30,
+  "num_features": 258,
+  "num_classes": 21,
+  "actions": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "B",
+    "Biru",
+    "C",
+    "D",
+    "E",
+    "Hijau",
+    "Hitam",
+    "Idle",
+    "Kuning",
+    "Merah",
+    "Sama-sama",
+    "Selamat malam",
+    "Selamat pagi",
+    "Selamat petang",
+    "Terima kasih"
+  ],
+  "feature_layout": {
+    "pose": {
+      "start": 0,
+      "end": 132,
+      "landmarks": 33
+    },
+    "left_hand": {
+      "start": 132,
+      "end": 195,
+      "landmarks": 21
+    },
+    "right_hand": {
+      "start": 195,
+      "end": 258,
+      "landmarks": 21
+    }
+  },
+  "face_landmarks_in_pose": [
+    "nose",
+    "left_eye_inner",
+    "left_eye",
+    "left_eye_outer",
+    "right_eye_inner",
+    "right_eye",
+    "right_eye_outer",
+    "left_ear",
+    "right_ear",
+    "mouth_left",
+    "mouth_right"
+  ],
+  "train_accuracy": 1.0,
+  "val_accuracy": 1.0,
+  "test_accuracy": 1.0,
+  "augmentation_factor": 5,
+  "epochs_trained": 105
+}

@@ -1,0 +1,101 @@
+{
+  "model_name": "action_model_optimized",
+  "input_shape": [
+    1,
+    30,
+    258
+  ],
+  "output_shape": [
+    1,
+    21
+  ],
+  "actions": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "A",
+    "B",
+    "Biru",
+    "C",
+    "D",
+    "E",
+    "Hijau",
+    "Hitam",
+    "Idle",
+    "Kuning",
+    "Merah",
+    "Sama-sama",
+    "Selamat malam",
+    "Selamat pagi",
+    "Selamat petang",
+    "Terima kasih"
+  ],
+  "optimized_for": [
+    "2",
+    "5",
+    "B",
+    "C",
+    "E",
+    "Biru",
+    "Hijau",
+    "Hitam",
+    "Selamat pagi",
+    "Selamat petang",
+    "Terima kasih",
+    "Sama-sama",
+    "Idle"
+  ],
+  "confusion_pairs_addressed": [
+    [
+      "2",
+      "3"
+    ],
+    [
+      "5",
+      "3"
+    ],
+    [
+      "B",
+      "4"
+    ],
+    [
+      "B",
+      "E"
+    ],
+    [
+      "C",
+      "D"
+    ],
+    [
+      "Biru",
+      "D"
+    ],
+    [
+      "Hijau",
+      "Merah"
+    ],
+    [
+      "Hijau",
+      "Kuning"
+    ],
+    [
+      "Hitam",
+      "D"
+    ],
+    [
+      "Selamat petang",
+      "Selamat malam"
+    ],
+    [
+      "Terima kasih",
+      "Merah"
+    ],
+    [
+      "Sama-sama",
+      "Merah"
+    ]
+  ],
+  "created": "2026-01-08T02:10:52.036200"
+}

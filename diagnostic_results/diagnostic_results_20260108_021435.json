@@ -1,0 +1,481 @@
+{
+  "timestamp": "2026-01-08T02:13:10.379787",
+  "categories": {
+    "Numbers": {
+      "1": {
+        "tests": [
+          {
+            "expected": "1",
+            "predicted": "Kuning",
+            "correct": false,
+            "confidence": 0.6833615303039551,
+            "top3": [
+              [
+                "Kuning",
+                0.6833615303039551
+              ],
+              [
+                "1",
+                0.18869081139564514
+              ],
+              [
+                "Idle",
+                0.05024745687842369
+              ]
+            ],
+            "all_probabilities": {
+              "1": 0.18869081139564514,
+              "2": 0.007431264966726303,
+              "3": 0.0008445786661468446,
+              "4": 0.00022824053303338587,
+              "5": 2.8654831112362444e-05,
+              "A": 0.002090015448629856,
+              "B": 6.553369075845694e-06,
+              "Biru": 6.92419707775116e-05,
+              "C": 5.632801548927091e-05,
+              "D": 0.0004079226346220821,
+              "E": 0.00019251259800512344,
+              "Hijau": 0.04870033636689186,
+              "Hitam": 0.002522618742659688,
+              "Idle": 0.05024745687842369,
+              "Kuning": 0.6833615303039551,
+              "Merah": 0.007825272157788277,
+              "Sama-sama": 0.0017963933059945703,
+              "Selamat malam": 0.003077554516494274,
+              "Selamat pagi": 0.00016062740178313106,
+              "Selamat petang": 0.002125760540366173,
+              "Terima kasih": 0.00013619587116409093
+            },
+            "capture_time": 1.706266164779663,
+            "analysis": {
+              "mean_z_score": 0.784130512431007,
+              "max_z_score": 3.840968183295794,
+              "live_left_hand_rate": 0.0,
+              "live_right_hand_rate": 0.5333333333333333,
+              "train_left_hand_rate": 0.0,
+              "train_right_hand_rate": 0.5933333333333334,
+              "pose_diff": 1.1096599456732255,
+              "left_hand_diff": 0.0,
+              "right_hand_diff": 0.8861993552116514
+            },
+            "sequence_stats": {
+              "left_hand_detected_frames": 0,
+              "right_hand_detected_frames": 16,
+              "total_frames": 30
+            }
+          },
+          {
+            "expected": "1",
+            "predicted": "1",
+            "correct": true,
+            "confidence": 0.4766892194747925,
+            "top3": [
+              [
+                "1",
+                0.4766892194747925
+              ],
+              [
+                "Kuning",
+                0.46505028009414673
+              ],
+              [
+                "Hijau",
+                0.015052981674671173
+              ]
+            ],
+            "all_probabilities": {
+              "1": 0.4766892194747925,
+              "2": 0.010199341922998428,
+              "3": 0.0010678676189854741,
+              "4": 0.0003175083256792277,
+              "5": 3.110816396656446e-05,
+              "A": 0.004032348748296499,
+              "B": 5.356752353691263e-06,
+              "Biru": 5.015623537474312e-05,
+              "C": 9.062282333616167e-05,
+              "D": 0.0006275475607253611,
+              "E": 0.00035045278491452336,
+              "Hijau": 0.015052981674671173,
+              "Hitam": 0.0008302724454551935,
+              "Idle": 0.01237754337489605,
+              "Kuning": 0.46505028009414673,
+              "Merah": 0.006880657281726599,
+              "Sama-sama": 0.0014995206147432327,
+              "Selamat malam": 0.0017578928964212537,
+              "Selamat pagi": 0.00011988811456831172,
+              "Selamat petang": 0.0028454626444727182,
+              "Terima kasih": 0.00012398511171340942
+            },
+            "capture_time": 1.8864214420318604,
+            "analysis": {
+              "mean_z_score": 0.7446957643039078,
+              "max_z_score": 3.4807524433830896,
+              "live_left_hand_rate": 0.0,
+              "live_right_hand_rate": 0.5666666666666667,
+              "train_left_hand_rate": 0.0,
+              "train_right_hand_rate": 0.5933333333333334,
+              "pose_diff": 1.0840623945658545,
+              "left_hand_diff": 0.0,
+              "right_hand_diff": 0.7783376366304039
+            },
+            "sequence_stats": {
+              "left_hand_detected_frames": 0,
+              "right_hand_detected_frames": 17,
+              "total_frames": 30
+            }
+          },
+          {
+            "expected": "1",
+            "predicted": "Kuning",
+            "correct": false,
+            "confidence": 0.7956695556640625,
+            "top3": [
+              [
+                "Kuning",
+                0.7956695556640625
+              ],
+              [
+                "1",
+                0.16961345076560974
+              ],
+              [
+                "3",
+                0.008579405024647713
+              ]
+            ],
+            "all_probabilities": {
+              "1": 0.16961345076560974,
+              "2": 0.005124462302774191,
+              "3": 0.008579405024647713,
+              "4": 0.0002471694315318018,
+              "5": 5.289555701892823e-05,
+              "A": 0.0018896689871326089,
+              "B": 9.657265991336317e-07,
+              "Biru": 1.9291668650112115e-05,
+              "C": 6.263598334044218e-05,
+              "D": 0.001282744575291872,
+              "E": 0.006691543385386467,
+              "Hijau": 0.00033901972346939147,
+              "Hitam": 0.0011837923666462302,
+              "Idle": 0.0016089229611679912,
+              "Kuning": 0.7956695556640625,
+              "Merah": 0.006981927901506424,
+              "Sama-sama": 0.00016925383533816785,
+              "Selamat malam": 0.00010149677109438926,
+              "Selamat pagi": 4.1746494389371946e-05,
+              "Selamat petang": 0.0003272432368248701,
+              "Terima kasih": 1.2919960681756493e-05
+            },
+            "capture_time": 2.039299964904785,
+            "analysis": {
+              "mean_z_score": 0.7427780784668582,
+              "max_z_score": 8.080608139177805,
+              "live_left_hand_rate": 0.0,
+              "live_right_hand_rate": 0.8333333333333334,
+              "train_left_hand_rate": 0.0,
+              "train_right_hand_rate": 0.5933333333333334,
+              "pose_diff": 1.1680972089518307,
+              "left_hand_diff": 0.0,
+              "right_hand_diff": 0.5944113121080598
+            },
+            "sequence_stats": {
+              "left_hand_detected_frames": 0,
+              "right_hand_detected_frames": 25,
+              "total_frames": 30
+            }
+          },
+          {
+            "expected": "1",
+            "predicted": "Kuning",
+            "correct": false,
+            "confidence": 0.9730149507522583,
+            "top3": [
+              [
+                "Kuning",
+                0.9730149507522583
+              ],
+              [
+                "1",
+                0.01873481273651123
+              ],
+              [
+                "Merah",
+                0.004632247611880302
+              ]
+            ],
+            "all_probabilities": {
+              "1": 0.01873481273651123,
+              "2": 0.0002775072352960706,
+              "3": 0.0009995430009439588,
+              "4": 3.932089020963758e-05,
+              "5": 8.705424079380464e-06,
+              "A": 0.00023389320995192975,
+              "B": 9.336964268413794e-08,
+              "Biru": 8.20974582893541e-06,
+              "C": 1.2299279660510365e-05,
+              "D": 0.00018842823919840157,
+              "E": 0.0008660274907015264,
+              "Hijau": 0.0001967864081962034,
+              "Hitam": 0.0001694286911515519,
+              "Idle": 0.0003406478790566325,
+              "Kuning": 0.9730149507522583,
+              "Merah": 0.004632247611880302,
+              "Sama-sama": 0.00010885376832447946,
+              "Selamat malam": 3.642790761659853e-05,
+              "Selamat pagi": 7.633184395672288e-06,
+              "Selamat petang": 0.00011871683818753809,
+              "Terima kasih": 5.526595032279147e-06
+            },
+            "capture_time": 1.8825390338897705,
+            "analysis": {
+              "mean_z_score": 0.7045317554073688,
+              "max_z_score": 8.057032414128058,
+              "live_left_hand_rate": 0.0,
+              "live_right_hand_rate": 1.0,
+              "train_left_hand_rate": 0.0,
+              "train_right_hand_rate": 0.5933333333333334,
+              "pose_diff": 1.0746324995568757,
+              "left_hand_diff": 0.0,
+              "right_hand_diff": 0.6336143325967227
+            },
+            "sequence_stats": {
+              "left_hand_detected_frames": 0,
+              "right_hand_detected_frames": 30,
+              "total_frames": 30
+            }
+          },
+          {
+            "expected": "1",
+            "predicted": "Kuning",
+            "correct": false,
+            "confidence": 0.9542247653007507,
+            "top3": [
+              [
+                "Kuning",
+                0.9542247653007507
+              ],
+              [
+                "1",
+                0.033423859626054764
+              ],
+              [
+                "Merah",
+                0.007782215252518654
+              ]
+            ],
+            "all_probabilities": {
+              "1": 0.033423859626054764,
+              "2": 0.0003856091061607003,
+              "3": 0.000653718423563987,
+              "4": 4.650262417271733e-05,
+              "5": 8.53017445479054e-06,
+              "A": 0.00048604648327454925,
+              "B": 2.47279444920423e-07,
+              "Biru": 1.551562854729127e-05,
+              "C": 2.0070825485163368e-05,
+              "D": 0.0002490099868737161,
+              "E": 0.001264355145394802,
+              "Hijau": 0.0003550435067154467,
+              "Hitam": 0.0003071773680858314,
+              "Idle": 0.0003998223983217031,
+              "Kuning": 0.9542247653007507,
+              "Merah": 0.007782215252518654,
+              "Sama-sama": 0.0001766711939126253,
+              "Selamat malam": 5.360745853977278e-05,
+              "Selamat pagi": 8.106902896543033e-06,
+              "Selamat petang": 0.0001305578334722668,
+              "Terima kasih": 8.496398550050799e-06
+            },
+            "capture_time": 1.8840572834014893,
+            "analysis": {
+              "mean_z_score": 0.7043417613910903,
+              "max_z_score": 5.298173102979069,
+              "live_left_hand_rate": 0.0,
+              "live_right_hand_rate": 1.0,
+              "train_left_hand_rate": 0.0,
+              "train_right_hand_rate": 0.5933333333333334,
+              "pose_diff": 1.0911627320284973,
+              "left_hand_diff": 0.0,
+              "right_hand_diff": 0.5982014890657085
+            },
+            "sequence_stats": {
+              "left_hand_detected_frames": 0,
+              "right_hand_detected_frames": 30,
+              "total_frames": 30
+            }
+          }
+        ],
+        "accuracy": 0.2,
+        "correct_count": 1,
+        "total_tests": 5,
+        "avg_confidence": 0.7765920042991639,
+        "wrong_predictions": [
+          "Kuning",
+          "Kuning",
+          "Kuning",
+          "Kuning"
+        ]
+      },
+      "2": {
+        "tests": [
+          {
+            "expected": "2",
+            "predicted": "1",
+            "correct": false,
+            "confidence": 0.8418139815330505,
+            "top3": [
+              [
+                "1",
+                0.8418139815330505
+              ],
+              [
+                "Kuning",
+                0.09809446334838867
+              ],
+              [
+                "2",
+                0.020727066323161125
+              ]
+            ],
+            "all_probabilities": {
+              "1": 0.8418139815330505,
+              "2": 0.020727066323161125,
+              "3": 0.0017191526712849736,
+              "4": 0.0003378405817784369,
+              "5": 1.7100626791943796e-05,
+              "A": 0.011346278712153435,
+              "B": 5.540648089663591e-06,
+              "Biru": 3.426705734455027e-05,
+              "C": 8.977382822195068e-05,
+              "D": 0.0011057908413931727,
+              "E": 0.017475757747888565,
+              "Hijau": 0.00030513523961417377,
+              "Hitam": 0.0015003449516370893,
+              "Idle": 0.0010185312712565064,
+              "Kuning": 0.09809446334838867,
+              "Merah": 0.0038725894410163164,
+              "Sama-sama": 0.0002242669288534671,
+              "Selamat malam": 0.00010802199540194124,
+              "Selamat pagi": 2.785251672321465e-05,
+              "Selamat petang": 0.00016357754066120833,
+              "Terima kasih": 1.2662245353567414e-05
+            },
+            "capture_time": 2.036309003829956,
+            "analysis": {
+              "mean_z_score": 0.6879310496450075,
+              "max_z_score": 7.438236347120438,
+              "live_left_hand_rate": 0.0,
+              "live_right_hand_rate": 1.0,
+              "train_left_hand_rate": 0.0,
+              "train_right_hand_rate": 0.6333333333333333,
+              "pose_diff": 1.0663478631285392,
+              "left_hand_diff": 0.0,
+              "right_hand_diff": 0.5829887758007104
+            },
+            "sequence_stats": {
+              "left_hand_detected_frames": 0,
+              "right_hand_detected_frames": 30,
+              "total_frames": 30
+            }
+          },
+          {
+            "expected": "2",
+            "predicted": "2",
+            "correct": true,
+            "confidence": 0.9921332597732544,
+            "top3": [
+              [
+                "2",
+                0.9921332597732544
+              ],
+              [
+                "1",
+                0.003038556082174182
+              ],
+              [
+                "4",
+                0.001423870213329792
+              ]
+            ],
+            "all_probabilities": {
+              "1": 0.003038556082174182,
+              "2": 0.9921332597732544,
+              "3": 0.001117049134336412,
+              "4": 0.001423870213329792,
+              "5": 0.0001311715750489384,
+              "A": 0.000666355132125318,
+              "B": 0.000700254226103425,
+              "Biru": 1.728606366668828e-05,
+              "C": 6.969974492676556e-06,
+              "D": 3.412129808566533e-05,
+              "E": 0.00014277224545367062,
+              "Hijau": 8.645604248158634e-05,
+              "Hitam": 0.00021602254128083587,
+              "Idle": 9.9314893304836e-05,
+              "Kuning": 3.2934713090071455e-05,
+              "Merah": 5.527750545297749e-06,
+              "Sama-sama": 1.99269470613217e-06,
+              "Selamat malam": 1.210730624734424e-05,
+              "Selamat pagi": 7.414347055600956e-05,
+              "Selamat petang": 4.172018088866025e-05,
+              "Terima kasih": 1.8073153114528395e-05
+            },
+            "capture_time": 1.8763654232025146,
+            "analysis": {
+              "mean_z_score": 0.5466424103031468,
+              "max_z_score": 6.589973957414368,
+              "live_left_hand_rate": 0.0,
+              "live_right_hand_rate": 1.0,
+              "train_left_hand_rate": 0.0,
+              "train_right_hand_rate": 0.6333333333333333,
+              "pose_diff": 0.845509097383695,
+              "left_hand_diff": 0.0,
+              "right_hand_diff": 0.4670879524375262
+            },
+            "sequence_stats": {
+              "left_hand_detected_frames": 0,
+              "right_hand_detected_frames": 30,
+              "total_frames": 30
+            }
+          }
+        ],
+        "accuracy": 0.5,
+        "correct_count": 1,
+        "total_tests": 2,
+        "avg_confidence": 0.9169736206531525,
+        "wrong_predictions": [
+          "1"
+        ]
+      }
+    }
+  },
+  "summary": {
+    "total_tests": 7,
+    "total_correct": 2,
+    "overall_accuracy": 0.2857142857142857,
+    "category_accuracies": {
+      "Numbers": 0.2857142857142857
+    },
+    "problem_signs": [
+      {
+        "sign": "1",
+        "category": "Numbers",
+        "accuracy": 0.2,
+        "wrong_predictions": [
+          "Kuning",
+          "Kuning",
+          "Kuning",
+          "Kuning"
+        ]
+      },
+      {
+        "sign": "2",
+        "category": "Numbers",
+        "accuracy": 0.5,
+        "wrong_predictions": [
+          "1"
+        ]
+      }
+    ]
+  }
+}

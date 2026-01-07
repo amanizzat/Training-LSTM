@@ -1,0 +1,38 @@
+============================================================
+DIAGNOSTIC TEST SUMMARY
+============================================================
+
+Overall Accuracy: 28.6% (2/7)
+
+Category Accuracies:
+  Numbers: 28.6%
+
+Problem Signs (< 60% accuracy):
+  1 (Numbers): 20%
+    Confused with: ['Kuning', 'Kuning', 'Kuning', 'Kuning']
+  2 (Numbers): 50%
+    Confused with: ['1']
+
+============================================================
+DETAILED RESULTS
+============================================================
+
+
+Numbers:
+----------------------------------------
+  1: 1/5 (20%)
+    Test 1: ✗ Predicted: Kuning (68%)
+           Z-Score: 0.78, RH Live: 53% vs Train: 59%
+    Test 2: ✓ Predicted: 1 (48%)
+           Z-Score: 0.74, RH Live: 57% vs Train: 59%
+    Test 3: ✗ Predicted: Kuning (80%)
+           Z-Score: 0.74, RH Live: 83% vs Train: 59%
+    Test 4: ✗ Predicted: Kuning (97%)
+           Z-Score: 0.70, RH Live: 100% vs Train: 59%
+    Test 5: ✗ Predicted: Kuning (95%)
+           Z-Score: 0.70, RH Live: 100% vs Train: 59%
+  2: 1/2 (50%)
+    Test 1: ✗ Predicted: 1 (84%)
+           Z-Score: 0.69, RH Live: 100% vs Train: 63%
+    Test 2: ✓ Predicted: 2 (99%)
+           Z-Score: 0.55, RH Live: 100% vs Train: 63%
