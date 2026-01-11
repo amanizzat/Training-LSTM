@@ -24,7 +24,7 @@ NUM_FEATURES = None
 ACTIONS = None
 
 # Confidence threshold - only show predictions above this
-CONFIDENCE_THRESHOLD = 0.85
+CONFIDENCE_THRESHOLD = 0.75
 # ---------------------
 
 def load_model_config():

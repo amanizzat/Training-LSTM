@@ -33,32 +33,39 @@
     "Terima kasih"
   ],
   "optimized_for": [
+    "1",
     "2",
-    "5",
+    "4",
+    "A",
     "B",
     "C",
-    "E",
+    "D",
+    "Merah",
     "Biru",
     "Hijau",
     "Hitam",
-    "Selamat pagi",
-    "Selamat petang",
-    "Terima kasih",
-    "Sama-sama",
-    "Idle"
+    "Terima kasih"
   ],
   "confusion_pairs_addressed": [
+    [
+      "1",
+      "Kuning"
+    ],
     [
       "2",
       "3"
     ],
     [
-      "5",
-      "3"
+      "4",
+      "E"
     ],
     [
-      "B",
-      "4"
+      "4",
+      "5"
+    ],
+    [
+      "A",
+      "E"
     ],
     [
       "B",
@@ -66,15 +73,23 @@
     ],
     [
       "C",
-      "D"
+      "E"
+    ],
+    [
+      "D",
+      "E"
+    ],
+    [
+      "Merah",
+      "Sama-sama"
     ],
     [
       "Biru",
-      "D"
+      "Kuning"
     ],
     [
-      "Hijau",
-      "Merah"
+      "Biru",
+      "Selamat petang"
     ],
     [
       "Hijau",
@@ -82,20 +97,12 @@
     ],
     [
       "Hitam",
-      "D"
-    ],
-    [
-      "Selamat petang",
-      "Selamat malam"
+      "E"
     ],
     [
       "Terima kasih",
-      "Merah"
-    ],
-    [
-      "Sama-sama",
-      "Merah"
+      "Sama-sama"
     ]
   ],
-  "created": "2026-01-08T02:10:52.036200"
+  "created": "2026-01-12T00:53:57.355569"
 }

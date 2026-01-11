@@ -1,0 +1,293 @@
+============================================================
+DIAGNOSTIC TEST SUMMARY
+============================================================
+
+Overall Accuracy: 35.2% (37/105)
+
+Category Accuracies:
+  Numbers: 8.0%
+  Alphabet: 48.0%
+  Colors: 20.0%
+  Greetings: 68.0%
+  Other: 20.0%
+
+Problem Signs (< 60% accuracy):
+  1 (Numbers): 0%
+    Confused with: ['B', 'C', '3', 'C', '3']
+  2 (Numbers): 0%
+    Confused with: ['B', 'B', 'B', 'B', 'B']
+  3 (Numbers): 40%
+    Confused with: ['B', 'B', 'B']
+  4 (Numbers): 0%
+    Confused with: ['B', 'C', 'B', 'B', 'B']
+  5 (Numbers): 0%
+    Confused with: ['B', '4', '4', '4', 'B']
+  D (Alphabet): 20%
+    Confused with: ['C', 'C', 'Merah', 'C']
+  E (Alphabet): 20%
+    Confused with: ['4', 'Merah', 'B', 'B']
+  Biru (Colors): 0%
+    Confused with: ['C', 'C', 'C', 'C', 'C']
+  Kuning (Colors): 0%
+    Confused with: ['C', 'C', 'C', 'C', 'C']
+  Hijau (Colors): 0%
+    Confused with: ['C', 'C', 'Merah', 'C', 'C']
+  Hitam (Colors): 0%
+    Confused with: ['C', 'Merah', 'C', 'C', 'C']
+  Selamat pagi (Greetings): 0%
+    Confused with: ['Biru', 'B', 'B', 'B', 'B']
+  Selamat petang (Greetings): 40%
+    Confused with: ['Selamat pagi', 'Selamat malam', 'Selamat malam']
+  Idle (Other): 20%
+    Confused with: ['B', 'C', 'B', 'B']
+
+============================================================
+DETAILED RESULTS
+============================================================
+
+
+Numbers:
+----------------------------------------
+  1: 0/5 (0%)
+    Test 1: ✗ Predicted: B (42%)
+           Z-Score: 1.23, RH Live: 60% vs Train: 59%
+    Test 2: ✗ Predicted: C (100%)
+           Z-Score: 1.16, RH Live: 57% vs Train: 59%
+    Test 3: ✗ Predicted: 3 (100%)
+           Z-Score: 1.15, RH Live: 100% vs Train: 59%
+    Test 4: ✗ Predicted: C (67%)
+           Z-Score: 1.03, RH Live: 100% vs Train: 59%
+    Test 5: ✗ Predicted: 3 (100%)
+           Z-Score: 1.25, RH Live: 100% vs Train: 59%
+  2: 0/5 (0%)
+    Test 1: ✗ Predicted: B (100%)
+           Z-Score: 1.11, RH Live: 63% vs Train: 62%
+    Test 2: ✗ Predicted: B (97%)
+           Z-Score: 1.13, RH Live: 57% vs Train: 62%
+    Test 3: ✗ Predicted: B (100%)
+           Z-Score: 1.33, RH Live: 77% vs Train: 62%
+    Test 4: ✗ Predicted: B (100%)
+           Z-Score: 1.20, RH Live: 63% vs Train: 62%
+    Test 5: ✗ Predicted: B (100%)
+           Z-Score: 1.20, RH Live: 100% vs Train: 62%
+  3: 2/5 (40%)
+    Test 1: ✗ Predicted: B (100%)
+           Z-Score: 2.24, RH Live: 50% vs Train: 79%
+    Test 2: ✗ Predicted: B (100%)
+           Z-Score: 2.15, RH Live: 67% vs Train: 79%
+    Test 3: ✗ Predicted: B (99%)
+           Z-Score: 1.90, RH Live: 60% vs Train: 79%
+    Test 4: ✓ Predicted: 3 (100%)
+           Z-Score: 1.62, RH Live: 100% vs Train: 79%
+    Test 5: ✓ Predicted: 3 (100%)
+           Z-Score: 1.67, RH Live: 100% vs Train: 79%
+  4: 0/5 (0%)
+    Test 1: ✗ Predicted: B (100%)
+           Z-Score: 0.80, RH Live: 60% vs Train: 84%
+    Test 2: ✗ Predicted: C (97%)
+           Z-Score: 0.84, RH Live: 70% vs Train: 84%
+    Test 3: ✗ Predicted: B (91%)
+           Z-Score: 0.65, RH Live: 100% vs Train: 84%
+    Test 4: ✗ Predicted: B (100%)
+           Z-Score: 0.79, RH Live: 70% vs Train: 84%
+    Test 5: ✗ Predicted: B (100%)
+           Z-Score: 0.73, RH Live: 70% vs Train: 84%
+  5: 0/5 (0%)
+    Test 1: ✗ Predicted: B (89%)
+           Z-Score: 0.60, RH Live: 100% vs Train: 86%
+    Test 2: ✗ Predicted: 4 (100%)
+           Z-Score: 0.49, RH Live: 100% vs Train: 86%
+    Test 3: ✗ Predicted: 4 (100%)
+           Z-Score: 0.44, RH Live: 100% vs Train: 86%
+    Test 4: ✗ Predicted: 4 (60%)
+           Z-Score: 0.46, RH Live: 100% vs Train: 86%
+    Test 5: ✗ Predicted: B (95%)
+           Z-Score: 0.66, RH Live: 63% vs Train: 86%
+
+Alphabet:
+----------------------------------------
+  A: 3/5 (60%)
+    Test 1: ✓ Predicted: A (90%)
+           Z-Score: 0.78, RH Live: 93% vs Train: 58%
+    Test 2: ✓ Predicted: A (100%)
+           Z-Score: 0.85, RH Live: 63% vs Train: 58%
+    Test 3: ✗ Predicted: Merah (61%)
+           Z-Score: 0.79, RH Live: 70% vs Train: 58%
+    Test 4: ✓ Predicted: A (100%)
+           Z-Score: 0.77, RH Live: 100% vs Train: 58%
+    Test 5: ✗ Predicted: C (100%)
+           Z-Score: 0.78, RH Live: 100% vs Train: 58%
+  B: 3/5 (60%)
+    Test 1: ✗ Predicted: E (97%)
+           Z-Score: 0.43, RH Live: 93% vs Train: 46%
+    Test 2: ✗ Predicted: E (100%)
+           Z-Score: 0.41, RH Live: 100% vs Train: 46%
+    Test 3: ✓ Predicted: B (100%)
+           Z-Score: 0.43, RH Live: 80% vs Train: 46%
+    Test 4: ✓ Predicted: B (90%)
+           Z-Score: 0.47, RH Live: 47% vs Train: 46%
+    Test 5: ✓ Predicted: B (88%)
+           Z-Score: 0.48, RH Live: 70% vs Train: 46%
+  C: 4/5 (80%)
+    Test 1: ✓ Predicted: C (100%)
+           Z-Score: 0.53, RH Live: 63% vs Train: 39%
+    Test 2: ✓ Predicted: C (100%)
+           Z-Score: 0.51, RH Live: 83% vs Train: 39%
+    Test 3: ✓ Predicted: C (100%)
+           Z-Score: 0.52, RH Live: 73% vs Train: 39%
+    Test 4: ✓ Predicted: C (100%)
+           Z-Score: 0.53, RH Live: 73% vs Train: 39%
+    Test 5: ✗ Predicted: Merah (88%)
+           Z-Score: 0.63, RH Live: 83% vs Train: 39%
+  D: 1/5 (20%)
+    Test 1: ✓ Predicted: D (54%)
+           Z-Score: 1.34, RH Live: 60% vs Train: 48%
+    Test 2: ✗ Predicted: C (100%)
+           Z-Score: 1.19, RH Live: 90% vs Train: 48%
+    Test 3: ✗ Predicted: C (100%)
+           Z-Score: 1.18, RH Live: 70% vs Train: 48%
+    Test 4: ✗ Predicted: Merah (100%)
+           Z-Score: 1.42, RH Live: 100% vs Train: 48%
+    Test 5: ✗ Predicted: C (48%)
+           Z-Score: 1.38, RH Live: 97% vs Train: 48%
+  E: 1/5 (20%)
+    Test 1: ✗ Predicted: 4 (95%)
+           Z-Score: 0.71, RH Live: 100% vs Train: 87%
+    Test 2: ✗ Predicted: Merah (97%)
+           Z-Score: 0.86, RH Live: 100% vs Train: 87%
+    Test 3: ✗ Predicted: B (100%)
+           Z-Score: 0.94, RH Live: 63% vs Train: 87%
+    Test 4: ✓ Predicted: E (99%)
+           Z-Score: 0.65, RH Live: 100% vs Train: 87%
+    Test 5: ✗ Predicted: B (52%)
+           Z-Score: 0.65, RH Live: 100% vs Train: 87%
+
+Colors:
+----------------------------------------
+  Merah: 5/5 (100%)
+    Test 1: ✓ Predicted: Merah (98%)
+           Z-Score: 0.92, RH Live: 37% vs Train: 72%
+    Test 2: ✓ Predicted: Merah (92%)
+           Z-Score: 0.92, RH Live: 67% vs Train: 72%
+    Test 3: ✓ Predicted: Merah (99%)
+           Z-Score: 0.90, RH Live: 87% vs Train: 72%
+    Test 4: ✓ Predicted: Merah (100%)
+           Z-Score: 0.89, RH Live: 70% vs Train: 72%
+    Test 5: ✓ Predicted: Merah (100%)
+           Z-Score: 0.86, RH Live: 73% vs Train: 72%
+  Biru: 0/5 (0%)
+    Test 1: ✗ Predicted: C (100%)
+           Z-Score: 0.58, RH Live: 80% vs Train: 27%
+    Test 2: ✗ Predicted: C (100%)
+           Z-Score: 0.63, RH Live: 87% vs Train: 27%
+    Test 3: ✗ Predicted: C (100%)
+           Z-Score: 0.56, RH Live: 70% vs Train: 27%
+    Test 4: ✗ Predicted: C (100%)
+           Z-Score: 0.54, RH Live: 67% vs Train: 27%
+    Test 5: ✗ Predicted: C (100%)
+           Z-Score: 0.59, RH Live: 77% vs Train: 27%
+  Kuning: 0/5 (0%)
+    Test 1: ✗ Predicted: C (100%)
+           Z-Score: 0.57, RH Live: 57% vs Train: 54%
+    Test 2: ✗ Predicted: C (100%)
+           Z-Score: 0.57, RH Live: 57% vs Train: 54%
+    Test 3: ✗ Predicted: C (100%)
+           Z-Score: 0.59, RH Live: 87% vs Train: 54%
+    Test 4: ✗ Predicted: C (99%)
+           Z-Score: 0.66, RH Live: 87% vs Train: 54%
+    Test 5: ✗ Predicted: C (44%)
+           Z-Score: 0.68, RH Live: 100% vs Train: 54%
+  Hijau: 0/5 (0%)
+    Test 1: ✗ Predicted: C (89%)
+           Z-Score: 1.10, RH Live: 57% vs Train: 33%
+    Test 2: ✗ Predicted: C (99%)
+           Z-Score: 1.47, RH Live: 70% vs Train: 33%
+    Test 3: ✗ Predicted: Merah (100%)
+           Z-Score: 1.16, RH Live: 93% vs Train: 33%
+    Test 4: ✗ Predicted: C (100%)
+           Z-Score: 1.16, RH Live: 67% vs Train: 33%
+    Test 5: ✗ Predicted: C (99%)
+           Z-Score: 1.11, RH Live: 80% vs Train: 33%
+  Hitam: 0/5 (0%)
+    Test 1: ✗ Predicted: C (90%)
+           Z-Score: 1.01, RH Live: 97% vs Train: 29%
+    Test 2: ✗ Predicted: Merah (59%)
+           Z-Score: 2.86, RH Live: 100% vs Train: 29%
+    Test 3: ✗ Predicted: C (100%)
+           Z-Score: 0.98, RH Live: 73% vs Train: 29%
+    Test 4: ✗ Predicted: C (100%)
+           Z-Score: 1.13, RH Live: 73% vs Train: 29%
+    Test 5: ✗ Predicted: C (98%)
+           Z-Score: 1.13, RH Live: 93% vs Train: 29%
+
+Greetings:
+----------------------------------------
+  Selamat pagi: 0/5 (0%)
+    Test 1: ✗ Predicted: Biru (99%)
+           Z-Score: 1.27, RH Live: 63% vs Train: 81%
+    Test 2: ✗ Predicted: B (100%)
+           Z-Score: 1.28, RH Live: 60% vs Train: 81%
+    Test 3: ✗ Predicted: B (100%)
+           Z-Score: 1.17, RH Live: 90% vs Train: 81%
+    Test 4: ✗ Predicted: B (100%)
+           Z-Score: 1.15, RH Live: 77% vs Train: 81%
+    Test 5: ✗ Predicted: B (100%)
+           Z-Score: 1.15, RH Live: 87% vs Train: 81%
+  Selamat petang: 2/5 (40%)
+    Test 1: ✗ Predicted: Selamat pagi (100%)
+           Z-Score: 1.02, RH Live: 80% vs Train: 83%
+    Test 2: ✗ Predicted: Selamat malam (100%)
+           Z-Score: 1.12, RH Live: 47% vs Train: 83%
+    Test 3: ✓ Predicted: Selamat petang (100%)
+           Z-Score: 1.04, RH Live: 63% vs Train: 83%
+    Test 4: ✗ Predicted: Selamat malam (100%)
+           Z-Score: 1.23, RH Live: 50% vs Train: 83%
+    Test 5: ✓ Predicted: Selamat petang (89%)
+           Z-Score: 1.11, RH Live: 70% vs Train: 83%
+  Selamat malam: 5/5 (100%)
+    Test 1: ✓ Predicted: Selamat malam (100%)
+           Z-Score: 1.20, RH Live: 83% vs Train: 68%
+    Test 2: ✓ Predicted: Selamat malam (100%)
+           Z-Score: 1.17, RH Live: 63% vs Train: 68%
+    Test 3: ✓ Predicted: Selamat malam (100%)
+           Z-Score: 1.09, RH Live: 90% vs Train: 68%
+    Test 4: ✓ Predicted: Selamat malam (100%)
+           Z-Score: 1.12, RH Live: 80% vs Train: 68%
+    Test 5: ✓ Predicted: Selamat malam (100%)
+           Z-Score: 1.10, RH Live: 100% vs Train: 68%
+  Terima kasih: 5/5 (100%)
+    Test 1: ✓ Predicted: Terima kasih (100%)
+           Z-Score: 0.89, RH Live: 73% vs Train: 61%
+    Test 2: ✓ Predicted: Terima kasih (100%)
+           Z-Score: 0.87, RH Live: 60% vs Train: 61%
+    Test 3: ✓ Predicted: Terima kasih (100%)
+           Z-Score: 0.88, RH Live: 63% vs Train: 61%
+    Test 4: ✓ Predicted: Terima kasih (100%)
+           Z-Score: 0.92, RH Live: 67% vs Train: 61%
+    Test 5: ✓ Predicted: Terima kasih (100%)
+           Z-Score: 0.91, RH Live: 57% vs Train: 61%
+  Sama-sama: 5/5 (100%)
+    Test 1: ✓ Predicted: Sama-sama (100%)
+           Z-Score: 1.32, RH Live: 80% vs Train: 65%
+    Test 2: ✓ Predicted: Sama-sama (100%)
+           Z-Score: 1.33, RH Live: 87% vs Train: 65%
+    Test 3: ✓ Predicted: Sama-sama (100%)
+           Z-Score: 2.16, RH Live: 70% vs Train: 65%
+    Test 4: ✓ Predicted: Sama-sama (60%)
+           Z-Score: 2.58, RH Live: 93% vs Train: 65%
+    Test 5: ✓ Predicted: Sama-sama (99%)
+           Z-Score: 1.89, RH Live: 73% vs Train: 65%
+
+Other:
+----------------------------------------
+  Idle: 1/5 (20%)
+    Test 1: ✗ Predicted: B (100%)
+           Z-Score: 13.22, RH Live: 13% vs Train: 0%
+    Test 2: ✗ Predicted: C (98%)
+           Z-Score: 17.58, RH Live: 0% vs Train: 0%
+    Test 3: ✗ Predicted: B (100%)
+           Z-Score: 10.96, RH Live: 0% vs Train: 0%
+    Test 4: ✗ Predicted: B (100%)
+           Z-Score: 11.54, RH Live: 0% vs Train: 0%
+    Test 5: ✓ Predicted: Idle (99%)
+           Z-Score: 11.33, RH Live: 0% vs Train: 0%

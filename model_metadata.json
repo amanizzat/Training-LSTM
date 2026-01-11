@@ -57,7 +57,7 @@
   ],
   "train_accuracy": 1.0,
   "val_accuracy": 1.0,
-  "test_accuracy": 1.0,
+  "test_accuracy": 0.9978836178779602,
   "augmentation_factor": 5,
-  "epochs_trained": 105
+  "epochs_trained": 148
 }

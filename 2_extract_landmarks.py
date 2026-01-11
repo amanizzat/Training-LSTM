@@ -104,9 +104,25 @@ def process_video(video_path, output_folder, holistic):
     return True
 
 
+def get_next_sequence_number(output_folder):
+    """
+    Get the next available sequence number for a sign.
+    Checks existing folders in SL_Data_Processed and returns max + 1.
+    """
+    if not output_folder.exists():
+        return 1
+    
+    existing_sequences = [
+        int(f.name) for f in output_folder.iterdir() 
+        if f.is_dir() and f.name.isdigit()
+    ]
+    
+    return max(existing_sequences) + 1 if existing_sequences else 1
+
+
 def main():
     print("\n" + "=" * 60)
-    print("STEP 2: LANDMARK EXTRACTION")
+    print("STEP 2: LANDMARK EXTRACTION (Auto-Increment Mode)")
     print("=" * 60)
     print(f"Input:  {VIDEO_PATH}")
     print(f"Output: {DATA_PATH}")
@@ -143,22 +159,27 @@ def main():
             video_folder = VIDEO_PATH / action
             output_folder = DATA_PATH / action
             
+            # Get starting sequence number (auto-increment from existing)
+            next_seq_num = get_next_sequence_number(output_folder)
+            print(f"\n📁 {action}: Starting from sequence {next_seq_num}")
+            
             # Find videos
             videos = sorted(
                 list(video_folder.glob("*.mp4")) + list(video_folder.glob("*.avi")),
                 key=lambda f: int(f.stem) if f.stem.isdigit() else 0
             )
             
-            print(f"\n📁 {action}: {len(videos)} videos")
+            print(f"   Found {len(videos)} new videos to process")
             
             for video_file in tqdm(videos, desc=f"   Processing"):
                 total_videos += 1
                 try:
-                    seq_num = int(video_file.stem) if video_file.stem.isdigit() else total_videos
-                    seq_folder = output_folder / str(seq_num)
+                    # Use auto-incremented sequence number instead of filename
+                    seq_folder = output_folder / str(next_seq_num)
                     
                     if process_video(video_file, seq_folder, holistic):
                         successful += 1
+                        next_seq_num += 1  # Increment for next video
                 except Exception as e:
                     print(f"\n   ✗ Error on {video_file.name}: {e}")
     

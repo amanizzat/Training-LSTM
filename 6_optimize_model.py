@@ -67,36 +67,59 @@ EPOCHS = 200
 BATCH_SIZE = 32
 LEARNING_RATE = 0.0003
 
-# Problem signs and their confusions (from diagnostic)
+# Problem signs and their confusions (from diagnostic 2026-01-12)
+# Overall Accuracy: 45.7% (48/105)
 CONFUSION_PAIRS = [
-    ("2", "3"),
-    ("5", "3"),
-    ("B", "4"),
-    ("B", "E"),
-    ("C", "D"),
-    ("Biru", "D"),
-    ("Hijau", "Merah"),
-    ("Hijau", "Kuning"),
-    ("Hitam", "D"),
-    ("Selamat petang", "Selamat malam"),
-    ("Terima kasih", "Merah"),
-    ("Sama-sama", "Merah"),
+    # Numbers confusions
+    ("1", "Kuning"),      # 1 → Kuning (80% of errors)
+    ("2", "3"),           # 2 → 3 (100% confusion!)
+    ("4", "E"),           # 4 → E/5 
+    ("4", "5"),           # 4 → 5
+    # Alphabet confusions - ALL confused with E!
+    ("A", "E"),           # A → E (100% confusion!)
+    ("B", "E"),           # B → E (100% confusion!)
+    ("C", "E"),           # C → E (100% confusion!)
+    ("D", "E"),           # D → E (100% confusion!)
+    # Colors confusions
+    ("Merah", "Sama-sama"),      # Merah → Sama-sama (60%)
+    ("Biru", "Kuning"),          # Biru → Kuning
+    ("Biru", "Selamat petang"),  # Biru → Selamat petang
+    ("Hijau", "Kuning"),         # Hijau → Kuning (100% confusion!)
+    ("Hitam", "E"),              # Hitam → E (100% confusion!)
+    # Greetings confusions
+    ("Terima kasih", "Sama-sama"),  # Terima kasih → Sama-sama (60%)
 ]
 
-# Signs with low accuracy that need more focus
+# Signs with low accuracy that need more focus (< 60% accuracy)
 PROBLEM_SIGNS = [
-    "2", "5", "B", "C", "E", "Biru", "Hijau", "Hitam",
-    "Selamat pagi", "Selamat petang", "Terima kasih", "Sama-sama", "Idle"
+    "1",      # 20% accuracy
+    "2",      # 0% accuracy  
+    "4",      # 0% accuracy
+    "A",      # 0% accuracy
+    "B",      # 0% accuracy
+    "C",      # 0% accuracy
+    "D",      # 0% accuracy
+    "Merah",  # 40% accuracy
+    "Biru",   # 0% accuracy
+    "Hijau",  # 0% accuracy
+    "Hitam",  # 0% accuracy
+    "Terima kasih",  # 40% accuracy
 ]
 
-# Signs with low hand detection in training (need augmentation with hand visibility)
+# Signs with low hand detection in training (RH Train %)
 LOW_HAND_DETECTION_SIGNS = {
     "Biru": 0.23,
     "Hitam": 0.24,
     "Hijau": 0.29,
     "C": 0.35,
-    "B": 0.43,
+    "B": 0.42,
     "D": 0.48,
+    "Kuning": 0.53,
+    "Terima kasih": 0.56,
+    "A": 0.58,
+    "1": 0.59,
+    "2": 0.60,
+    "Sama-sama": 0.60,
 }
 
 
